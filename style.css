@@ -3,6 +3,12 @@
   margin: 0%;
   box-sizing: border-box;
 }
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
 
 .nav-item {
   padding-right: 30px;
